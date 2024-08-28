@@ -9,7 +9,7 @@ body{
     width: 40vmin;
     height: 56vmin;
     object-fit: cover;
-
+    will-change: object-position;
 }
 #track{
     display: flex;
@@ -18,4 +18,5 @@ body{
     left: 50%;
     top: 50%;
     transform: translate(0%, -50%);
+    will-change: transform;
 }
